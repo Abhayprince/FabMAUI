@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FabMAUI.MainPage">
+
+    <Grid Padding="10">
+        <ScrollView>
+            <VerticalStackLayout>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+                <Label Text="Lets implement Animated floating action button in .Net MAUI with Abhay Prince"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        
+        <VerticalStackLayout HorizontalOptions="End"
+                             VerticalOptions="End"
+                             Padding="10"
+                             Margin="0, 0, -100, 50"
+                             Spacing="5"
+                             x:Name="fabBtnsContainer">
+            <Button Text="Link1" />
+            <Button Text="Link2" />
+            <Button Text="Link3" />
+            <Button Text="Link4" />
+            <Button Text="Link5" />
+            <Button Text="Link6" />
+        </VerticalStackLayout>
+        
+        <Button Text="Fab"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                Margin="10"
+                x:Name="fabBtn"
+                Clicked="fabBtn_Clicked"/>
+    </Grid>
+
+</ContentPage>
